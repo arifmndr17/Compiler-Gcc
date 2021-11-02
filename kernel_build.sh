@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (C) 2021 a xyzprjkt property
+# Copyright (C) 2021 a arifmndr17 property
 #
 
 # Needed Secret Variable
@@ -39,7 +39,7 @@ PATH="${PATH}:${GCC64_ROOTDIR}/bin:${GCC32_ROOTDIR}/bin"
 # Warning !! Dont Change anything there without known reason.
 function check() {
 echo ================================================
-echo xKernelCompiler
+echo KernelCompilerGcc
 echo version : rev1.5 - gaspoll
 echo ================================================
 echo BUILDER NAME = ${KBUILD_BUILD_USER}
